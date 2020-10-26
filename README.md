@@ -4,6 +4,8 @@
      
 # Sensor-Curve-Fitting
 
+This project aimed for the derivation of an output function for SHARP IR sensor (`GP2Y0A21YK0F`) in order to convert the raw value to meaningful distance.
+
 ### Issue
 SHARP IR sensor (`GP2Y0A21YK0F`) outputs a raw value which is not linearly correlated with the distance. So, a non-linear function is needed to output the distance from raw value.
 
