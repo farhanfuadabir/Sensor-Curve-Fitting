@@ -1,3 +1,7 @@
+<p align="right">
+<img src="https://img.shields.io/github/license/farhanfuadabir/Sensor-Curve-Fitting">
+</p>
+     
 # Sensor-Curve-Fitting
 
 ### Issue
