@@ -16,6 +16,7 @@ The experiment is designed with a fixed opaque obstacle, a ruler for distance me
 <img src="Sharp_IR_curveFitting.svg" width=400>
 </p>
 
+
 - Total 25 distance data of the obstacle and the sensor was recorded from the physical scale to the Matlab input prompt.
 - The corresponding sensor raw ADC value was recorded simultaneously.
 - `Curve Fitting Toolbox` was used on the recorded ADC value and measured distance following the settings. 
@@ -24,11 +25,13 @@ Fitting Characteristics= Rational
 Numerator degree= 0
 Denominator degree= -1
 ```
+
 <p align="center">
 <img src="Sharp_IR_curveFitting_2.svg" width=450>
 </p>
 
 ### Result
+
 ```
 General model Rat01:
      f(x) = (p1) / (x + q1)
@@ -42,3 +45,18 @@ Goodness of fit:
   Adjusted R-square: 0.9986
   RMSE: 0.272
 ```
+
+<p align="center">
+<img src="fitted_result.svg" width=700>
+</p>
+
+Derived output function:
+
+<p align="center">
+<img src="https://latex.codecogs.com/svg.latex?Distance&space;=&space;\frac{4835}{ADC-28.76}"&space;>
+</p>
+
+
+### Comment
+
+The output function resembles the output characteristics of the sensor within 10-80 cm distance. 
